@@ -8,7 +8,7 @@ console.log(multiply(35, 26, 7))
 
 // TODO: Create a function expression called ‘convertToSeconds’ that takes inanumber of minutes as an argument and returns the amount in seconds. ***Do not use a console.log() inside of the function***
 
-function convertToSeconds(minutes) {
+const convertToSeconds = function(minutes) {
     return minutes * 60
 }
 
